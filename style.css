@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('fonts/Gilroy-Bold.eot');
+    src: url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('fonts/Gilroy-Regular.eot');
+    src: url('fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Regular.woff') format('woff'),
+        url('fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.container {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+header {
+    display: flex;
+    gap: 30px;
+}
+
+.header__item {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px 30px 25px;
+    /* border: 1px solid black; */
+}
+
+.header__central_item {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.header__title {
+    margin-top: 25px;
+    margin-bottom: 17px;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+}
+
+.header__text {
+    margin-bottom: 25px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+main {
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px;
+
+}
+
+.main__header {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+}
+
+.main__text {
+    margin: 19px 244px 54px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.main__content {
+    display: flex;
+    gap: 30px;
+}
+
+.content_item {
+    background: #FFF;
+    display: grid;
+    justify-items: center;
+}
+
+.content__central_item {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.content_first_img {
+    padding-top: 15px;
+}
+
+.content_title {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+}
+
+.content_text {
+    padding: 22px 30px 39px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.content_button {
+
+    margin: 0 120px 50px 100px;
+    padding: 15px 21px 15px 46px;
+    /* background-image: url('img/button_bg.svg'); */
+    background: #F25822;
+    border: none;
+    border-radius: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.content_button>img {
+    padding-left: 6px;
+}
